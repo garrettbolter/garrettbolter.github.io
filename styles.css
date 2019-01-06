@@ -757,6 +757,11 @@ color: #f6bc7b;
     .top {
         grid-template-columns: 1fr;
     }
+    
+    .MegaFlex {
+        height: 450px;
+    }
+    
     .bottom {
         grid-template-columns: 1fr;
     }
