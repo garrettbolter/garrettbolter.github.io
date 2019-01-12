@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     padding-top: 100px;
+    
 }
 
 h2 {
@@ -87,9 +88,48 @@ p {
     display: none;
 }
 
-.Footer {
-    text-align: center;
+.second {
+    height: 100vh;
+    background-image: url(images/backGrad2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     
+}
+
+.resumeD {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.resumeD h1 {
+    font-family: 'Thasadith', sans-serif;
+    color: #edb79b;
+    width: 100%;
+    text-align: center;
+}
+
+.resumeD h2 {
+    color: #edb79b;  
+    font-family: 'Thasadith', sans-serif;
+}
+
+.resumeD a {
+    text-decoration: none;
+    color: #edb79b;
+    font-family: 'Thasadith', sans-serif;
+}
+
+.Footer {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-image: url(images/break.png);
     padding: 20px;
     font-family: 'Roboto Mono', monospace;
