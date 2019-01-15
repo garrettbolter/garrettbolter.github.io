@@ -206,6 +206,69 @@ p {
     height: 400px;
     width: 400px;
 }
+.call {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+.call h1 {
+    font-family: 'Work Sans', sans-serif;
+color: #f6bc7b;
+    font-size: 50px;
+}
+.call h2 {
+    font-size: 25px;
+    color: #edb79b;
+    padding-top: 0;
+    line-height: 24px;
+}
+.test {
+    text-decoration: line-through;
+}
+.call a {
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+}
+.here {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    text-decoration: none;
+    color: #edb79b;
+}
+.here:hover {
+    color: coral;
+    border: solid 3px white;
+    margin: 2px;
+}
+.social-tw {
+    color:cornflowerblue;
+}
+.social-tw:visited {
+    color:cornflowerblue;
+}
+.social-li {
+    color: #335990;
+}
+.social-li:visited {
+    color: #335990;
+}
+.social-in {
+    color: #104185;
+}
+.social-in:visited {
+    color:blueviolet;
+}
+.social-fb {
+    color: blueviolet;
+}
+.social-fb:visited {
+    color: #104185;
+}
+
 
 .Footer {
     text-align: center;
