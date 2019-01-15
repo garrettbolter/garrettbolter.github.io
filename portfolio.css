@@ -87,9 +87,55 @@ p {
     display: none;
 }
 
+.break {
+    height: 10px;
+    min-width: 100vw;
+    background-image: url(images/break.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    /* ADD DOPE GRADIENT */
+}
+.break2 {
+    height: 10px;
+    min-width: 100vw;
+    background-image: url(images/break2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.second {
+    height: 100vh;
+    background-image: url(images/backGrad2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.para-DTH {
+    font-size: 30px;
+    width: 50%;
+    color: #edb79b;
+}
+
+.banner {
+    text-align: center;
+}
+.banner h1 {
+    color: #ae6570;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 50px;
+}
+
+
+
 .Footer {
     text-align: center;
-    
+    width: 100%;
     background-image: url(images/break.png);
     padding: 20px;
     font-family: 'Roboto Mono', monospace;

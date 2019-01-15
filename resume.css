@@ -94,7 +94,6 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
 }
 
 .resumeD {
@@ -102,7 +101,7 @@ p {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    padding-top: 40px;
+    padding-top: 150px;
 }
 
 .resumeD h1 {
