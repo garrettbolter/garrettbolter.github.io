@@ -4,11 +4,12 @@ body {
     margin: 0;
     padding: 0;
     padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h2 {
     font-size: 40px;
-    padding: 20px;
     margin: 0;
     text-align: center;
     font-family: 'Thasadith', sans-serif;
@@ -16,7 +17,6 @@ h2 {
 
 h3 {
     margin: 0;
-    padding: 0;
 }
 
 p {
@@ -107,21 +107,6 @@ p {
     padding: 0;
 }
 
-.second {
-    height: 100vh;
-    background-image: url(images/backGrad2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: 30px;
-}
-
-.para-DTH {
-    font-size: 30px;
-    width: 50%;
-    color: #edb79b;
-}
-
 .banner {
     text-align: center;
 }
@@ -131,7 +116,96 @@ p {
     font-size: 50px;
 }
 
+.second {
+    
+    background-image: url(images/backGrad2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+}
 
+.DTH {
+    display: flex;
+    flex-basis: space-around;
+    flex-wrap: wrap;
+}
+
+.DTH a {
+    text-decoration: none;
+    color: #c2513c;
+}
+.editz {
+    width: 50%;
+}
+
+.dthban {
+    color: #c2513c;
+    padding-top: 30px;
+}
+
+.para-DTH {
+    font-size: 23px;
+    color: #edb79b;
+    margin: 20px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.pizza {
+    background-image: url("images/DTHPizzaEdit.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 390px;
+    height: 500px;
+    margin: 30px;
+}
+.dthright {
+    width: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;    
+}
+
+.PB {
+    display: flex;
+    flex-basis: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.left {
+    width: 45%;
+    margin: 20px;
+}
+
+.left h2 {
+    color: coral;
+    text-align: center;
+}
+
+.left h3 {
+    color: #edb79b;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 23px;
+}
+.right {
+    display: flex;
+    width: 45%;
+    justify-content: center;
+}
+.right div {
+     background-image: url("images/PBphones.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
 
 .Footer {
     text-align: center;
