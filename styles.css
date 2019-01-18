@@ -17,6 +17,11 @@ body {
     padding: 0;
     padding-top: 100px;
 }
+
+h1 {
+    font-size: 50px;
+}
+
 h2 {
     font-size: 40px;
     padding: 20px;
@@ -268,6 +273,7 @@ color: white;
     width: 100%;
     margin: 0;
     padding: 0;
+    padding-top: 40px;
    grid-template-columns: 1.5fr 1fr;
     
 }
@@ -294,13 +300,6 @@ color: white;
 }
 .beam:visited {
      color: #ae6570;
-}
-.junior {
-    text-transform: uppercase;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 23px;
-    text-align: center;
-    color: #f6bc7b;
 }
 .studentLife h2 {
     color: #ae6570;
@@ -662,6 +661,7 @@ color: white;
 .gap {
     display: block;
     opacity: 0;
+    padding-top: 30px;
 }
 
 .call {
@@ -673,7 +673,7 @@ color: white;
 .call h1 {
     font-family: 'Work Sans', sans-serif;
 color: #f6bc7b;
-    font-size: 50px;
+    
 }
 .call h2 {
     font-size: 25px;
@@ -742,52 +742,131 @@ color: #f6bc7b;
 @media only screen and (max-width: 800px) {
     
     body {
-        padding-top: 0;
+        padding-top: 50px;
         margin-top: 0;
     }
-   
-    .topright {
-        padding: 10px;
-        padding-top: 70px;
-    }
-    .css-typing h1 {
-        font-size: 20px;
+    
+    h1 {
+        font-size: 40px;
     }
     
-    .top {
-        grid-template-columns: 1fr;
+    h2 {
+        font-size: 30px;
+        padding: 10px;
+    }
+   
+    p {
+        font-size: 15px;
     }
     
     .MegaFlex {
         height: 450px;
     }
     
+    .descr {
+    padding: 15px;
+    text-align: center;
+    color: #edb79b;
+    margin: 0;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 30px;
+}
+    .Iam {
+    margin: 0;
+    color: #edb79b;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    width: 100%;
+}
+    
+    .top {
+        padding-top: 10px;
+    }
+    .studentLife {
+        align-content: center;
+        align-self: center;
+    }
+    .studentLife h2 {
+        width: 100%;
+    }
+    .swapfont {
+        align-self: center;
+        width: 100%;
+    }
+    .studentLife ul li {
+        font-size: 15px;
+        text-align: center;
+    }
+    .studentLife a {
+        font-size: 20px;
+    } 
+    .topright {
+        padding: 40px;
+        padding-top: 70px;
+    }
+    
+    .coding p {
+        margin-bottom: 15px;
+    }
+    .SkillBar {
+    margin: 0px;
+    padding: 10px;
+    margin-left: 0;
+    padding-left: 0; 
+    font-size: 15px;
+    padding-right: 0;
+    margin-right: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    .css-typing h1 {
+        font-size: 25px;
+    }
+    .top {
+        grid-template-columns: 1fr;
+    }
+    
+    
     .bottom {
         grid-template-columns: 1fr;
     }
     
     .SkillBar {
-        padding-bottom: 30px;
+        padding-bottom: 25px;
     }
     #Skill-Java {
  width: 90%;
+padding-bottom: 0px;
+        padding-top: 0px;
  }
     #Skill-C {
  width: 90%;
+        padding-bottom: 0px;
+        padding-top: 0px;
  }
     #Skill-TypeScript {
  width: 80%;
+        padding-bottom: 0px;
+        padding-top: 0px;
     }
     #Skill-HTML {
  width: 80%;
+        padding-bottom: 0px;
+        padding-top: 0px;
  }
     #Skill-Assembly {
  width: 70%;
+        padding-bottom: 0px;
+        padding-top: 0px;
  }
     #Skill-PHP {
  width: 60%;
+        padding-bottom: 0px;
+        padding-top: 0px;
  }
-    
  @keyframes Animate-100 {
  from {width: 10px;}
  to {width: 90%}
@@ -857,7 +936,9 @@ color: #f6bc7b;
         margin: 15px;
         border: none;
     }    
-    
+    .hide {
+        color: white;
+    }
     .codeMus {
         border: solid 5px #edb79b;
         margin: 10px;

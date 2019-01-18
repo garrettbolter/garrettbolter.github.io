@@ -6,6 +6,7 @@ body {
     padding-top: 100px;
     display: flex;
     flex-wrap: wrap;
+    height: 100vh;
 }
 
 h2 {
@@ -129,6 +130,7 @@ p {
     display: flex;
     flex-basis: space-around;
     flex-wrap: wrap;
+    
 }
 
 .DTH a {
@@ -137,11 +139,11 @@ p {
 }
 .editz {
     width: 50%;
+    align-self: center;
 }
 
 .dthban {
     color: #c2513c;
-    padding-top: 30px;
 }
 
 .para-DTH {
@@ -181,6 +183,7 @@ p {
 .left {
     width: 45%;
     margin: 20px;
+    align-self: center;
 }
 
 .left h2 {
@@ -285,106 +288,79 @@ color: #f6bc7b;
 
 @media only screen and (max-width: 750px) {
     
-    #nav {
+    body {
+        padding-top: 50px;
+    }
+    
+      #nav {
         display: none;
     }
-    
     .menu {
-    margin-left: auto;
+        margin-left: auto;
         display: flex;
         justify-content: space-between;
-        height: 100px;
         text-decoration: none;
     }
-    
-    
     #mobile_menu {
         display: block;
-        display: flex;
         margin-right: 25px;
-        background-color: rgba(0,0,0,0);
         
     }
-
    .slicknav_menu {
-    display: block;
-       text-decoration: none;
+       text-align: center;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
 }
-
 }
 /* slicknav button text */      
 
-       .slicknav_menu .slicknav_menutxt {
-	color: coral;
-   font-family: 'Raleway', sans-serif;
-    text-decoration-color: rgba(0,0,0,0);    
+.slicknav_menu .slicknav_menutxt {
+	color: #edb79b;
+   font-family: 'Raleway', sans-serif; 
+    display: flex;
+    flex-wrap: wrap;
 }
       /* button Lines */
 .slicknav_menu .slicknav_icon-bar {
-	background-color: rgba(0,0,0,0);
-    text-decoration: none;
-    
+
 }
-      
 .slicknav_menu {
-	background: rgba(0,0,0,0);
-	padding: 15px;
+display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    padding: 20px;
 }
-      
 .slicknav_nav {
-	color: #fff;
-	margin: 0;
-	padding: 0;
 	font-size: 1em;
-    text-decoration: none;
-    
+    margin:0; 
+    padding: 0;
 }
-      
 .slicknav_nav, .slicknav_nav ul {
 	list-style: none;
-	overflow: hidden;
-    
+    margin: 0;
+    padding: 0;
 }
-      
 .slicknav_nav ul {
-	padding: 0;
-	margin: 0 0 0 0px;
-    
+    margin: 0;
 }
-      
-.slicknav_nav .slicknav_item {
-	padding: 5px 10px;
-	margin: 2px 5px;
+.slicknav_nav ul li {
+    margin: 8px;
 }
-      
+.slicknav_nav .slicknav_item {}
 .slicknav_nav a {
-	padding: 25px;
-	margin: 25px;
-	text-decoration: none;
-	color: rgba(0,0,0,0);
   font-family: 'Raleway', sans-serif;
 }
-.slicknav_nav .slicknav_item a {
-	padding: 0;
-	margin: 0;
-}
+.slicknav_nav .slicknav_item a {}
 .slicknav_nav .slicknav_item:hover {
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
-	background: #ccc;
-	color: #fff;
     
 }
 .slicknav_nav a:hover {
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	background: #ccc;
-	color: #222;
+
 }
-      
-.slicknav_nav .slicknav_txtnode {
-	margin-left: 0px;
-    
-}
+.slicknav_nav .slicknav_txtnode {}
