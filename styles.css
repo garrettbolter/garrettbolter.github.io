@@ -231,6 +231,7 @@ color: white;
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .Iam {
@@ -263,7 +264,7 @@ color: white;
 .brief {
     display: flex;
     height: auto;
-    width: 100vw;
+    width: 100%;
     margin: 0;
     flex-wrap: wrap;
 }
@@ -522,9 +523,9 @@ color: white;
 
 
 .bottom {
-    display: grid;
+    /*display: grid;*/
     width: 100%;
-    grid-template-columns: 3fr 2fr;
+    /*grid-template-columns: 3fr 2fr;*/
     
 }
 
@@ -535,6 +536,7 @@ color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 .graphicDes h2 {
     text-align: center;
@@ -629,6 +631,8 @@ color: white;
     padding: 10px;
     margin: 15px;
     /*border: 5px solid #edb79b;*/
+    display: none;
+    width: 0;
 }
 .codeMus h2 {
  color: #c2513c;
