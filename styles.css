@@ -280,13 +280,14 @@ color: white;
 }
 
 .studentLife {
-    margin: 15px;
+        border: solid 5px #edb79b;
+    margin: 10px;
     padding: 10px;
     text-align: center;
     /*border: solid 5px #edb79b;  */
     display: flex;
     flex-wrap: wrap;
-    
+    border: solid 5px #edb79b;
     justify-content: center;
 }
 .studentLife p {
@@ -536,7 +537,7 @@ color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    
 }
 .graphicDes h2 {
     text-align: center;
@@ -544,7 +545,7 @@ color: white;
     padding-right: 10px;
     font-family: 'Thasadith', sans-serif;
     color: #f6bc7b;
-    width: 100%;
+    width: 100vw;
     
 }
 .graphicDes a {
@@ -791,6 +792,7 @@ color: #f6bc7b;
     .studentLife {
         align-content: center;
         align-self: center;
+        border: none;
     }
     .studentLife h2 {
         width: 100%;
