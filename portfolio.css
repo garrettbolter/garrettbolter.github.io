@@ -155,12 +155,12 @@ p {
 }
 
 .pizza {
-    background-image: url("images/DTHPizzaEdit.png");
+    background-image: url("images/socialMediaHH.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 390px;
-    height: 500px;
+    width: 500px;
+    height: 250px;
     margin: 30px;
 }
 .dthright {
